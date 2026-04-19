@@ -1,15 +1,15 @@
-package com.ehei.gi4.payement;
+package com.ehei.gi4.payement.strategy;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import java.util.List;
 
-@Component("remiseBDD")
-public class RemiseBDD implements IRemise {
+@Component("remiseVar")
+public class RemiseVar implements IRemise {
 
     private final JdbcTemplate jdbcTemplate;
 
-    public RemiseBDD(JdbcTemplate jdbcTemplate) {
+    public RemiseVar(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 

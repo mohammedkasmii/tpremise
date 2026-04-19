@@ -1,4 +1,4 @@
-package com.ehei.gi4.payement;
+package com.ehei.gi4.payement.strategy;
 import org.springframework.stereotype.Component;
 
 @Component("remiseFixe")
